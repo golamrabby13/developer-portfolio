@@ -10,10 +10,11 @@ body{
 }
 section{
 display: flex;
+margin-bottom: 150px;
 }
 .half-width{
 width: 50%;
-padding: 2%;
+padding-left: 7%;
 }
 .half-width img{
 width: 80%;
@@ -31,4 +32,9 @@ font-weight: 700;
 .top-banner{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
